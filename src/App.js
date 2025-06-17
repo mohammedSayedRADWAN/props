@@ -17,10 +17,13 @@ function App() {
 					rel="noopener noreferrer">
 					Learn React
 				</a>
-				<Article name="mostafa" Email="mostafa@gmail.com" phone="11122" />
-				<Article />
-				<Article />
-				<Article />
+				<Article
+					name="mostafa"
+					Email="mostafa@gmail.com"
+					phone="11122"
+					content="anyThing ">
+					<h1>Hello from children</h1>
+				</Article>
 				<Article />
 				<Article />
 			</header>

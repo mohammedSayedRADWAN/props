@@ -1,4 +1,10 @@
-export default function yarob({ name, Email, phone }) {
+export default function yarob({
+	name = "no content",
+	Email = "no content",
+	phone = "no content",
+	content = "no content",
+	children,
+}) {
 	return (
 		<div
 			style={{
@@ -11,7 +17,8 @@ export default function yarob({ name, Email, phone }) {
 			<h3>{Email}</h3>
 			<h3>{phone}</h3>
 			<hr></hr>
-			<p>ffffffffff</p>
+			<p>{content}</p>
+			{children}
 		</div>
 	);
 }
